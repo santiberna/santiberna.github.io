@@ -133,9 +133,9 @@ params:
   
     button:
       enable: true
-      name: "My Resume"
-      url: "SantiagoResume.pdf"
-      download: true
+      name: "Check out my Projects!"
+      url: "#projects"
+      download: false
       newPage: false
     socialLinks:
       fontAwesomeIcons:
@@ -234,9 +234,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: You can contact me through my socials (below) but also my email. I will be happy to answer!
-    btnName: Mail me
-    btnLink: mailto:santibberna@gmail.com
+    content: You can contact me through my LinkedIn (below). I will be happy to answer!
+    btnName: Download my Resume
+    btnLink: "SantiagoResume.pdf"
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'

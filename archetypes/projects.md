@@ -2,9 +2,9 @@
 title: '{{ replace .Name "-" " " | title }}'
 date: {{ .Date }}
 image: /images/hero.png
+draft: true
 
 content: WIP
-
 
 badges:
     - "WIP"

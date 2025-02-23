@@ -133,9 +133,9 @@ params:
   
     button:
       enable: true
-      name: "Check out my projects!"
-      url: "#projects"
-      download: false
+      name: "My Resume"
+      url: "SantiagoResume.pdf"
+      download: true
       newPage: false
     socialLinks:
       fontAwesomeIcons:
@@ -150,19 +150,23 @@ params:
     title: "About Me"
     image: /images/hero.png
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
-
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      Game Engine Programming student from Portugal, that is currently on his 3rd year at BUAS Creative Media and Games Technology course. 
+      Ever since I had my DS when I was little, I knew I wanted to make games in the future. I am passionate and curious about exploring areas of expertise related to game and software development, always trying to go beyond the status quo.
+      
+      Specializing as a C++ Engine programmer, I have worked on a variety of topics from basic content creation tools, integrating a scripting language, networking, 3D model loading and multithreaded optimizations. Notably, I have more experience in custom engines (although I can find my way around Unreal C++).
+      Beyond video games and programming, I am also passionate about animation shows and drumming.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: |-
+        Here are tools and libraries that I am familiar with:
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "C++"
+        - "Visual Studio"
+        - "VSCode"
+        - "CMake"
+        - "Git and Github"
+        - "SDL"
+        - "Boost.Asio"
 
   # Experience
   # experience:
@@ -230,7 +234,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: You can contact me through my email. I will be happy to answer!
+    content: You can contact me through my socials (below) but also my email. I will be happy to answer!
     btnName: Mail me
     btnLink: mailto:santibberna@gmail.com
     # formspree:
@@ -245,7 +249,7 @@ params:
       path: "posts"
       count: 3
       title: Recent Posts
-      enable: true
+      enable: false
       disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/santiberna

@@ -9,6 +9,8 @@ badges:
     - "Custom Engine"
     - "Team Project"
     - "Procedural Level Editor"
+    - "Dear ImGui"
+    - "EnTT" 
 
 links:
     - icon: fab fa-github

@@ -17,6 +17,6 @@ links:
       url: "https://example.com"
 ---
 
-Worked on: Level loading and Serialization, Procedural placement of objects using texture masks and Perlin noise, Editor GUI for editing a scene.
+Self study project where I created a simple game for 2-4 players using Boost.Asio and SDL. Also implemented UI with text rendering and a widget hierarchy.
 
 <!--more-->

@@ -51,7 +51,7 @@ params:
   title: "Santiago Bernardino - Game Engine Programmer"
   description: "I develop game engines using C++. Generally knowledgeable about graphics, networking and build systems, with a focus on asynchronous and threaded applications."
   staticPath: ""  # The path to serve the static files from
-  favicon: "/images/octahedron.svg"
+  favicon: "/images/octahedron2.svg"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -102,7 +102,7 @@ params:
   # If you want to customize the menu, you can change it here
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
-    brandLogo: "/images/octahedron.svg" # Logo for the brand | default is the favicon variable
+    brandLogo: "/images/octahedron2.svg" # Logo for the brand | default is the favicon variable
     showBrandLogo: false # Show brand logo in nav bar | default is true
     brandName: "Search: " # Brand name for the brand | default is the title variable
     disableSearch: false
@@ -153,20 +153,23 @@ params:
       Game Engine Programming student from Portugal, that is currently on his 3rd year at BUAS Creative Media and Games Technology course. 
       Ever since I had my DS when I was little, I knew I wanted to make games in the future. I am passionate and curious about exploring areas of expertise related to game and software development, always trying to go beyond the status quo.
       
-      Specializing as a C++ Engine programmer, I have worked on a variety of topics from basic content creation tools, integrating a scripting language, networking, 3D model loading and multithreaded optimizations. Notably, I have more experience in custom engines (although I can find my way around Unreal C++).
+      Specializing as a C++ Engine programmer, I have worked on a variety of topics from basic content creation tools, integrating a scripting language, networking, 3D model loading and multithreading. Notably, I have more experience in custom engines (although I can find my way around Unreal C++).
       Beyond video games and programming, I am also passionate about animation shows and drumming.
     skills:
       enable: true
       title: |-
-        Here are tools and libraries that I am familiar with:
+        Here are some tools and libraries that I am familiar with:
       items:
         - "C++"
         - "Visual Studio"
         - "VSCode"
         - "CMake"
         - "Git and Github"
+        - "Perforce"
         - "SDL"
         - "Boost.Asio"
+        - "Python"
+        - "OpenGL"
 
   # Experience
   # experience:
@@ -234,7 +237,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: You can contact me through my LinkedIn (below). I will be happy to answer!
+    content: You can contact me through my [Email](mailto:santibberna@gmail.com) or simply message me on [LinkedIn](https://linkedin.com/in/santiago-bernardino). I will be happy to answer!
     btnName: Download my Resume
     btnLink: "SantiagoResume.pdf"
     # formspree:

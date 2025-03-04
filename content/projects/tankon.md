@@ -2,15 +2,19 @@
 title: 'TankOn - Multiplayer Versus Topdown Shooter'
 date: 2025-03-03T18:22:22+01:00
 image: /images/tankon/image.png
-draft: false
+draft: true
 
 badges:
     - "C++"
-    - "Solo"
     - "SDL"
     - "Networking"
     - "Boost.Asio"
     - "UI Rendering"
+
+meta:
+  - "👥Solo side project"
+  - "⌛Duration: 12 weeks"
+  - "💻Platforms: Windows"
 
 links:
     - icon: fab fa-github

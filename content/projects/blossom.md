@@ -7,16 +7,21 @@ draft: false
 badges:
     - "C++"
     - "Custom Engine"
-    - "Team Project"
     - "Procedural Level Editor"
     - "Dear ImGui"
-    - "EnTT" 
+    - "OpenGL"
+
+meta:
+  - "👥Team Size: 10 (🛠️6, 🎮2, 🎨3)"
+  - "⌛Duration: 16 weeks"
+  - "💻Platforms: Windows and PS5"
+
 
 links:
     - icon: fab fa-github
       url: "https://example.com"
 ---
 
-Worked on: Level loading and Serialization, Procedural placement of objects using texture masks and Perlin noise, Editor GUI for editing a scene.
+Team project where I worked on Level loading and Serialization, Procedural placement of objects using texture masks and Perlin noise, Editor GUI for editing a scene.
 
 <!--more-->

@@ -7,16 +7,20 @@ draft: false
 badges:
     - "C++"
     - "Custom Engine"
-    - "Team Project"
     - "CMake"
     - "Scripting"
     - "CI/CD"
 
+meta:
+  - "👥Team Size: 10 (🛠️9, 🎮1)"
+  - "⌛Duration: 32 weeks"
+  - "💻Platforms: Steam Deck & Windows"
+  
 links:
     - icon: fab fa-github
       url: "https://example.com"
 ---
 
-Worked on: Code quality and testing pipeline using GitHub workflows, building the engine using CMake, integrated and created bindings for a scripting language.
+Team project where I worked on a code quality and testing pipeline using GitHub workflows, building the engine using CMake, integrated and created bindings for a scripting language.
 
 <!--more-->

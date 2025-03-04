@@ -8,13 +8,6 @@
 
 {{ define "title" }}
 {{.Title }} | {{ .Site.Title }}
-
-{{ range .Params.meta }}
-<div class="m-1">
-    {{ . }}
-</div>
-{{ end }}
-
 {{ end }}
 
 {{ define "main" }}

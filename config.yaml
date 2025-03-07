@@ -151,11 +151,12 @@ params:
     image: /images/hero.png
     content: |-
       Game Engine Programming student from Portugal, that is currently on his 3rd year at BUAS Creative Media and Games Technology course. 
-      Ever since I had my DS when I was little, I knew I wanted to make games in the future. I am passionate and curious about exploring areas of expertise related to game and software development, always trying to go beyond the status quo.
-      Specializing as a C++ Engine programmer, I have worked on a variety of topics from basic content creation tools, integrating a scripting language, networking, 3D model loading and multithreading.
-      Notably, I have worked more in custom game engines and I also have experience in Scrum and Agile team processes.
+      I am passionate about exploring areas of game programming and software development, always trying to go beyond the status quo.
+      Specializing as a C++ Engine programmer, I have worked on a variety of topics from content creation tools, integrating a scripting language, networking, 3D model loading and multithreading.
+      Notably, I have worked more in custom game engines and I also have experience in Scrum / Agile development.
       
-      Beyond video games and programming, I am also very passionate about for music and I have been learning the drums for about 5 months now! I was also a fencing athlete back in my high-school days and got to be national team champion once.
+      Ever since I had my DS when I was little, I knew I wanted to make games in the future.
+      Beyond video games, I am also very passionate about music and I have been learning the drums for about 5 months now! I was also a fencing athlete back in my high-school days and got to be national team champion once.
     skills:
       enable: true
       title: |-

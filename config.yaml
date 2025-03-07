@@ -49,7 +49,7 @@ Menus:
 
 params:
   title: "Santiago Bernardino - Game Engine Programmer"
-  description: "I develop game engines using C++. Generally knowledgeable about graphics, networking and build systems, with a focus on asynchronous and threaded applications."
+  description: "I develop game engines using C++. Generally knowledgeable about API design, networking and build systems, with a focus on asynchronous and threaded applications."
   staticPath: ""  # The path to serve the static files from
   favicon: "/images/octahedron2.svg"
 
@@ -81,23 +81,23 @@ params:
 
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
-  # color:
-  #   textColor: "#343a40"
-  #   secondaryTextColor: "#6c757d"
-  #   textLinkColor: "#007bff"
-  #   backgroundColor: "#eaedf0"
-  #   secondaryBackgroundColor: "#64ffda1a"
-  #   primaryColor: "#007bff"
-  #   secondaryColor: "#f8f9fa"
+  color:
+    textColor: "#343a40"
+    secondaryTextColor: "#6c757d"
+    textLinkColor: "#007bff"
+    backgroundColor: "#eaedf0"
+    secondaryBackgroundColor: "#64ffda1a"
+    primaryColor: "#007bff"
+    secondaryColor: "#f8f9fa"
 
-  #   darkmode:
-  #     textColor: "#e4e6eb"
-  #     secondaryTextColor: "#b0b3b8"
-  #     textLinkColor: "#ffffff"
-  #     backgroundColor: "#18191a"
-  #     secondaryBackgroundColor: "#212529"
-  #     primaryColor: "#ffffff"
-  #     secondaryColor: "#212529"
+    darkmode:
+      textColor: "#d8dde8"
+      secondaryTextColor: "#b0b3b8"
+      textLinkColor: "#ffffff"
+      backgroundColor: "#18191a"
+      secondaryBackgroundColor: "#212529"
+      primaryColor: "#ffffff"
+      secondaryColor: "#212529"
 
   # If you want to customize the menu, you can change it here
   navbar:
@@ -125,7 +125,7 @@ params:
     intro: "Hi, my name is"
     title: "Santiago Bernardino."
     subtitle: "Game Engine Programmer"
-    content: "I develop game engines using C++. Experience with graphics, networking, build systems and cross platform design."
+    content: "I develop game engines using C++. Experience with API design, networking, build systems and cross platform design."
     image: /images/hero.png
     roundImage: true # Make hero image circular | default false
     #bottomImage:
@@ -152,9 +152,10 @@ params:
     content: |-
       Game Engine Programming student from Portugal, that is currently on his 3rd year at BUAS Creative Media and Games Technology course. 
       Ever since I had my DS when I was little, I knew I wanted to make games in the future. I am passionate and curious about exploring areas of expertise related to game and software development, always trying to go beyond the status quo.
+      Specializing as a C++ Engine programmer, I have worked on a variety of topics from basic content creation tools, integrating a scripting language, networking, 3D model loading and multithreading.
+      Notably, I have worked more in custom game engines and I also have experience in Scrum and Agile team processes.
       
-      Specializing as a C++ Engine programmer, I have worked on a variety of topics from basic content creation tools, integrating a scripting language, networking, 3D model loading and multithreading. Notably, I have more experience in custom engines (although I can find my way around Unreal C++).
-      Beyond video games and programming, I am also passionate about animation shows and drumming.
+      Beyond video games and programming, I am also very passionate about for music and I have been learning the drums for about 5 months now! I was also a fencing athlete back in my high-school days and got to be national team champion once.
     skills:
       enable: true
       title: |-
@@ -215,7 +216,7 @@ params:
         school:
           name: "Colégio Do Sagrado Coração De Maria - Lisboa"
           url: "https://www.cscm-lx.pt"
-        date: "2022 - Now"
+        date: "2015 - 2022"
         GPA: "4.6 out of 5.0"
 
   # Achievements

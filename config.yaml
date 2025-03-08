@@ -126,10 +126,10 @@ params:
     title: "Santiago Bernardino."
     subtitle: "Game Engine Programmer"
     content: "I develop game engines using C++. Experience with API design, networking, build systems and cross platform design."
-    image: /images/hero.png
-    roundImage: true # Make hero image circular | default false
-    #bottomImage:
-      #enable: false
+    image: /images/blossom/poi.gif
+    # roundImage: true # Make hero image circular | default false
+    # bottomImage:
+    #   enable: true
   
     button:
       enable: true
@@ -148,7 +148,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: /images/hero.png
+    image: /images/hero.jpg
     content: |-
       Game Engine Programming student from Portugal, that is currently on his 3rd year at BUAS Creative Media and Games Technology course. 
       I am passionate about exploring areas of game programming and software development, always trying to go beyond the status quo.

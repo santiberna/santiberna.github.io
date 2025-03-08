@@ -31,8 +31,8 @@ The game is available on [Itch.io (Link)](https://buas.itch.io/blossom-engine) a
 Within the team, I was assigned the role of Engine Programmer.
 
 - **Procedural placement of Props**
-- **Gameplay related to Points of Interest**
 - **Editor GUI for modifying editing attributes**
+- **Gameplay related to Points of Interest**
 - Serializing and loading scenes for release
 - Model loading for GLTF files
 
@@ -40,8 +40,19 @@ Within the team, I was assigned the role of Engine Programmer.
 
 In order to design nature scenes, We needed an algorithm that would procedurally place props like flowers and trees in a terrain (doing it practically would be too much work). **We used perlin noise combined with greyscale textures** for sampling the probability that an object would be present:
 
-TODO: PHOTO OF DENSITY MAP + RESULT WITH TREES
-TODO: PHOTO OF ENVIRONMENT
+<p align="center">
+<img src="/images/blossom/masking.png" style="width: 75%" alt="Centered Image">
+</p>
+
+<div class="row">
+  <div style="width: 50%">
+    <img src="/images/blossom/flowers1.png" alt="Example 1" style="width:100%">
+  </div>
+  <div style="width: 50%">
+    <img src="/images/blossom/flower2.png" alt="Example 2" style="width:100%">
+  </div>
+</div>
+
 
 Combining this with a lot of other randomization parameters for size and tilt, **we got a very effective and basic way of generating landscapes.**
 
@@ -49,12 +60,24 @@ Combining this with a lot of other randomization parameters for size and tilt, *
 
 **I created a robust editor for the scene with the ability to add an arbitrary number of props to a scene** and tweak a lot of the generation parameters. This was also built upon by another colleague who integrated the FastNoise library for generating density maps.
 
-TODO: VIDEO OF EDITOR
+<video width="440" height="320" controls>
+  <source src="/images/blossom/editor_video.mp4" type="video/mp4">
+</video>
+<video width="440" height="320" controls>
+  <source src="/images/blossom/editing_lighting.mp4" type="video/mp4">
+</video>
 
 This also involved serializing and loading a scene at runtime, **which I also implemented** using the [Cereal library (Link)](https://github.com/USCiLab/cereal).
 
-## Beautification Sequence
+## The Honey Collection Minigame
 
-Towards the end of the project I worked a bit on the gameplay. More concretely, **I created the logic for the growing sequence when the player completes the honey collection minigame.**
+Towards the end of the project I worked a bit on the gameplay. More concretely, **I created the logic for the growing sequence when the player completes the honey collection minigame and the orbiting bees around the hive as you deliver more honey**
 
-TODO: VIDEO OF BEAUTIFICATION
+<div class="row">
+  <div style="width: 50%">
+    <img src="/images/blossom/poi.gif" alt="Example 1" style="width:100%">
+  </div>
+  <div style="width: 50%">
+    <img src="/images/blossom/orbiting.gif" alt="Example 2" style="width:100%">
+  </div>
+</div>

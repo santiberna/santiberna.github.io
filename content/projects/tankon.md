@@ -30,9 +30,8 @@ TankOn! is a versus topdown shooter for 2-4 players and my first study into crea
 - **Networking using Boost.Asio**
 - **Patterns for gameplay messages between Server/Client**
 - SDL Rendering, Windowing, Input and Audio
-- Common patterns for handling UI
 - WIP: Signals and Slots for UI
-- WIP: Font rendering
+- WIP: UI Widgets
 
 ## Networking using Boost.Asio
 
@@ -62,7 +61,7 @@ The gameplay was easy to implement, although there are some smart things I did a
 
 For serialization and deserialization of all this data, I used [Cereal (Link)](https://github.com/USCiLab/cereal).
 
-TODO: VIDEO OF PLAYING TANKON
+<!-- TODO: Add a video of playing TankOn here! -->
 
 ## GUI Rendering (WIP)
 

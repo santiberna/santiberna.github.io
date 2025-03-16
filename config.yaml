@@ -24,10 +24,10 @@ markup:
 
 Menus:
   main:
-    - identifier: posts
-      name: Posts
-      title: Posts
-      url: /posts
+    - identifier: resume
+      name: Resume
+      title: Resume
+      url: /SantiagoResume.pdf
       weight: 1
     #Dropdown menu
     # - identifier: dropdown
@@ -49,7 +49,7 @@ Menus:
 
 params:
   title: "Santiago Bernardino - Game Engine Programmer"
-  description: "I develop game engines using C++. Generally knowledgeable about API design, networking and build systems, with a focus on asynchronous and threaded applications."
+  description: "I develop game engines using C++. Experience with 3D math, networking, build systems and cross platform design. Passionate about working on content creation / processing tools and simple, effective API design."
   staticPath: ""  # The path to serve the static files from
   favicon: "/images/octahedron2.svg"
 
@@ -82,7 +82,7 @@ params:
   # color preference
   # When using hex codes for colors, quotations must be used along with the # sign
   color:
-    textColor: "#343a40"
+    textColor: "#cfd5e2"
     secondaryTextColor: "#6c757d"
     textLinkColor: "#007bff"
     backgroundColor: "#eaedf0"
@@ -91,7 +91,7 @@ params:
     secondaryColor: "#f8f9fa"
 
     darkmode:
-      textColor: "#d8dde8"
+      textColor: "#bfc7d9"
       secondaryTextColor: "#b0b3b8"
       textLinkColor: "#ffffff"
       backgroundColor: "#18191a"
@@ -103,8 +103,8 @@ params:
   navbar:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     brandLogo: "/images/octahedron2.svg" # Logo for the brand | default is the favicon variable
-    showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Search: " # Brand name for the brand | default is the title variable
+    showBrandLogo: true # Show brand logo in nav bar | default is true
+    brandName: "Santiago Bernardino" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -123,9 +123,9 @@ params:
   hero:
     enable: true
     intro: "Hi, my name is"
-    title: "Santiago Bernardino."
+    title: "Santiago Bernardino"
     subtitle: "Game Engine Programmer"
-    content: "I develop game engines using C++. Experience with API design, networking, build systems and cross platform design."
+    content: "I develop game engines using C++. Experience with 3D math, networking, build systems and cross platform design. Passionate about working on content creation / processing tools and simple, effective API design."
     # image: /images/blossom/poi.gif
     # roundImage: true # Make hero image circular | default false
     # bottomImage:
@@ -150,13 +150,14 @@ params:
     title: "About Me"
     image: /images/hero.jpg
     content: |-
-      Game Engine Programming student from Portugal, that is currently on his 3rd year at BUAS Creative Media and Games Technology course. 
-      I am passionate about exploring areas of game programming and software development, always trying to go beyond the status quo.
-      Specializing as a C++ Engine programmer, I have worked on a variety of topics from content creation tools, integrating a scripting language, networking, 3D model loading and multithreading.
-      Notably, I have worked more in custom game engines and I also have experience in Scrum / Agile development.
+      **Game Engine Programming student** that is currently on his 3rd year at **BUAS Creative Media and Games Technology** course. 
+      I am passionate about exploring areas of game programming and software development, especially related to **content creation and processing**, **memory optimizations** and **simple and effective API design**.
+      Specializing as a **C++ Engine and Tools programmer**, I have also worked on a variety of topics from , **integrating a scripting language**, **networking**, **3D model loading** and **multithreading**.
+      Notably, I have worked on **2 different custom engines for team projects** and I also have experience in **Scrum / Agile development**.
       
-      Ever since I had my DS when I was little, I knew I wanted to make games in the future.
-      Beyond video games, I am also very passionate about music and I have been learning the drums for about 5 months now! I was also a fencing athlete back in my high-school days and got to be national team champion once.
+      Ever since I had my DS when I was little, I knew I wanted to make games in the future, something which I was always confident about. I believe videogames have the capability of immersing players much more than any other form of media, which is what makes them so magical.
+      Beyond video games, I am also very passionate about music and I have been learning the drums for about half a year now! I was also a fencing athlete back in my high-school days and got to be national team champion once. 
+      I value my hobbies above all since they are amazing sources of creative expression in my life, the very same creativity that I try to apply on all of my work.
     skills:
       enable: true
       title: |-
@@ -170,7 +171,6 @@ params:
         - "Perforce"
         - "SDL"
         - "Boost.Asio"
-        - "Python"
         - "OpenGL"
 
   # Experience
@@ -239,8 +239,8 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: You can contact me through my [Email](mailto:santibberna@gmail.com) or simply message me on [LinkedIn](https://linkedin.com/in/santiago-bernardino). I will be happy to answer!
-    btnName: Download my Resume
+    content: If you want to contact me, simply message me on [LinkedIn](https://linkedin.com/in/santiago-bernardino) or shoot me an email **santibberna@gmail.com** . I will be happy to answer!
+    btnName: My Resume
     btnLink: "SantiagoResume.pdf"
     # formspree:
     #   enable: true # `contact.email` value will be ignored

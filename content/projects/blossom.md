@@ -7,26 +7,27 @@ draft: false
 badges:
     - "C++"
     - "Custom Engine"
-    - "Procedural Level Editor"
-    - "Dear ImGui"
-    - "OpenGL"
-    - "Perforce"
+    - "Level Editor"
     - "Visual Studio"
     - "University"
 
 meta:
-  - "👥Team Size: 10 (🛠️6, 🎮2, 🎨3)"
+  - "👥Team Project"
   - "⌛Duration: 16 weeks"
   - "💻Platforms: Windows and PS5"
 
-Summary: "Team project where I worked on Level loading and Serialization, Procedural placement of objects using texture masks and perlin noise, Editor GUI for editing a scene."
+Summary: "Team project where I worked on **Level loading and Serialization**, **Procedural placement of objects** using texture masks and perlin noise, **Editor GUI** for editing a scene, all for creating amazing nature landscapes with minimal manual work."
 ---
+
+## Introduction
 
 Blossom is a game where you play as a bee collecting honey around a beautiful 3D environment. This project originally started as a custom rendering engine for nature scenes. **Developed for both PC and the PS5.**
 
-The game is available on [Itch.io (Link)](https://buas.itch.io/blossom-engine) and the [OpenGL port is available on GitHub (Link)](https://github.com/BredaUniversityGames/Blossom) 
+The game is available on [Itch.io](https://buas.itch.io/blossom-engine) and the [OpenGL port is available on GitHub](https://github.com/BredaUniversityGames/Blossom) 
 
-## Contributions
+Our team was composed of 6 programmers, 2 designers and 3 visual artists.
+
+## What I did 
 
 Within the team, I was assigned the role of Engine Programmer.
 
@@ -60,14 +61,14 @@ Combining this with a lot of other randomization parameters for size and tilt, *
 
 **I created a robust editor for the scene with the ability to add an arbitrary number of props to a scene** and tweak a lot of the generation parameters. This was also built upon by another colleague who integrated the FastNoise library for generating density maps.
 
-<video width="440" height="320" controls>
+<video width="440" height="320" autoplay loop muted playsinline>
   <source src="/images/blossom/editor_video.mp4" type="video/mp4">
 </video>
-<video width="440" height="320" controls>
+<video width="440" height="320" autoplay loop muted playsinline>
   <source src="/images/blossom/editing_lighting.mp4" type="video/mp4">
 </video>
 
-This also involved serializing and loading a scene at runtime, **which I also implemented** using the [Cereal library (Link)](https://github.com/USCiLab/cereal).
+This also involved serializing and loading a scene at runtime, **which I also implemented** using the [Cereal library](https://github.com/USCiLab/cereal).
 
 ## The Honey Collection Minigame
 

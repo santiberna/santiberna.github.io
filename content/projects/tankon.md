@@ -61,7 +61,9 @@ The gameplay was easy to implement, although there are some smart things I did a
 
 For serialization and deserialization of all this data, I used [Cereal](https://github.com/USCiLab/cereal).
 
-<!-- TODO: Add a video of playing TankOn here! -->
+<video width="440" height="320" autoplay loop muted playsinline>
+  <source src="/images/TankOnMovement.mp4" type="video/mp4">
+</video>
 
 ## GUI Rendering (WIP)
 

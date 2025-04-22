@@ -13,7 +13,6 @@ badges:
 
 meta:
   - "👥Solo passion project"
-  - "⌛Duration: 8 weeks"
   - "💻Platforms: Windows"
 
 Summary: "Solo passion project where I challenged myself to create a simple game for 2-4 players using **Boost.Asio** and **SDL**. Also implemented **UI with text rendering and a widget hierarchy**."
@@ -23,15 +22,15 @@ Summary: "Solo passion project where I challenged myself to create a simple game
 
 TankOn! is a versus topdown shooter for 2-4 players and my first study into creating multiplayer games and networking! It uses SDL as a backend and Boost.Asio for networking.
 
-[All the code is available on my personal GitHub!](https://github.com/santiberna/TankOn)
+[All the code is available on my GitHub!](https://github.com/santiberna/TankOn)
 
 ## What I did 
 
 - **Networking using Boost.Asio**
 - **Patterns for gameplay messages between Server/Client**
+- **UI Framework and Widgets**
 - SDL Rendering, Windowing, Input and Audio
-- WIP: Signals and Slots for UI
-- WIP: UI Widgets
+- Signals and Slots for UI
 
 ## Networking using Boost.Asio
 
@@ -67,6 +66,22 @@ For serialization and deserialization of all this data, I used [Cereal](https://
 </video>
 </p>
 
-## GUI Rendering (WIP)
+## UI Widgets and Input
 
-This section is currently in progress! Check back later!
+I explored using [Boost.Signals2](https://www.boost.org/doc/libs/1_88_0/doc/html/signals2.html) to create a flexible UI framework. It also uses [a tree data structure](https://github.com/kpeeters/tree.hh) to store a UI Menu as a tree with each widget being a node:
+
+<p align="center">
+<img src="/images/tankon/ui_anim.gif" width="40%" alt="Centered Image">
+<div align="center">Scaling up on hovered buttons (with debug lines)</div>
+</p>
+
+<p align="center">
+<video width="440" height="320" autoplay loop muted playsinline>
+  <source src="/images/tankon/Widgets1.mp4" type="video/mp4">
+</video>
+<video width="440" height="320" autoplay loop muted playsinline>
+  <source src="/images/tankon/Widgets2.mp4" type="video/mp4">
+</video>
+
+<div align="center">Sliders and toggles (Left), text input boxes (Right)</div>
+</p>

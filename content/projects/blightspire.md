@@ -10,14 +10,13 @@ badges:
     - "CMake"
     - "Scripting"
     - "CI/CD"
-    - "University"
 
 meta:
   - "👥Team Project"
   - "⌛Duration: 32 weeks"
   - "💻Platforms: Windows and Steamdeck"
 
-Summary: "Year long Custom Tech project where I worked on a **code quality and testing pipeline** using GitHub workflows, building the engine using **CMake** and integrated a **scripting language (Wren)** for improving design iteration times."
+Summary: "Year long Custom Tech project where I integrated a **scripting language (Wren)** for improving iteration times, worked on a **code quality and testing pipeline** using GitHub workflows and managed building the engine using **CMake**"
 ---
 
 ## Introduction
@@ -118,7 +117,3 @@ To avoid main breaking every week, I also setup some automated [GitHub workflows
     <img src="/images/blightspire/build_checks.png" alt="Build Checks" style="width:100%">
   </div>
 </div>
-
-## More to come
-
-The engine is still WIP, so I will likely add more here... stay tuned!

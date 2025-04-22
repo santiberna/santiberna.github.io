@@ -49,7 +49,7 @@ Menus:
 
 params:
   title: "Santiago Bernardino - Game Engine Programmer"
-  description: "I develop game engines using C++. Experience with 3D math, networking, build systems and cross platform design. Passionate about working on content creation / processing tools and simple, effective API design."
+  description: "I develop game engines using C++. Experience with 3D math, multithreading, build systems and cross platform design. Passionate about working on content creation and simple, effective API design and user experience."
   staticPath: ""  # The path to serve the static files from
   favicon: "/images/octahedron2.svg"
 
@@ -70,7 +70,7 @@ params:
   animate: true
 
   theme:
-    # disableThemeToggle: true
+    disableThemeToggle: true
     # defaultTheme: "light" # dark
 
   font:
@@ -91,7 +91,7 @@ params:
     secondaryColor: "#f8f9fa"
 
     darkmode:
-      textColor: "#bfc7d9"
+      textColor: "#c6cfe2"
       secondaryTextColor: "#b0b3b8"
       textLinkColor: "#ffffff"
       backgroundColor: "#18191a"
@@ -109,7 +109,7 @@ params:
     # searchPlaceholder: "Search"
     stickyNavBar:
       enable : true
-      showOnScrollUp : true
+      showOnScrollUp : false
     enableSeparator: false
     menus:
       disableAbout: false
@@ -125,11 +125,11 @@ params:
     intro: "Hi, my name is"
     title: "Santiago Bernardino"
     subtitle: "Game Engine Programmer"
-    content: "I develop game engines using C++. Experience with 3D math, networking, build systems and cross platform design. Passionate about working on content creation / processing tools and simple, effective API design."
+    content: "I develop game engines using **C++**. Experience with **3D math, multithreading, build systems and cross platform design**. Passionate about working on **effective API design and user experience**."
     # image: /images/blossom/poi.gif
     # roundImage: true # Make hero image circular | default false
-    # bottomImage:
-    #   enable: true
+    bottomImage:
+      enable: false
   
     button:
       enable: true
@@ -150,16 +150,14 @@ params:
     title: "About Me"
     image: /images/hero.jpg
     content: |-
-      **Game Engine Programming student** that is currently on his 3rd year at **BUAS Creative Media and Games Technology** course. 
-      I am passionate about exploring areas of game programming and software development, especially related to **content creation and processing**, **memory optimizations** and **simple and effective API design**.
-      Specializing as a **C++ Engine and Tools programmer**, I have also worked on a variety of topics from , **integrating a scripting language**, **networking**, **3D model loading** and **multithreading**.
-      Notably, I have worked on **2 different custom engines for team projects** and I also have experience in **Scrum / Agile development**.
-      
-      Ever since I had my DS when I was little, I knew I wanted to make games in the future, something which I was always confident about. I believe videogames have the capability of immersing players much more than any other form of media, which is what makes them so magical.
-      Beyond video games, I am also very passionate about music and I have been learning the drums for about half a year now! I was also a fencing athlete back in my high-school days and got to be national team champion once. 
-      I value my hobbies above all since they are amazing sources of creative expression in my life, the very same creativity that I try to apply on all of my work.
+      Hello there! I'm a 3rd-year Game Engine Programming student at BUAS. I am a passionate game programmer with a strong background on C++ and problem solving, **currently looking for an internship on content processing/optimization, UI and network/multiplayer code.**
+
+      **I've contributed to two custom game engines** for team projects and gained hands-on experience with **integrating scripting, networking, 3D model loading, and multithreading**. I'm also familiar with **Scrum/Agile workflows**.
+
+      Obviously, I also play games in my free time: I believe they are one of the most immersive forms of media nowadays and I am proud to work in something that has been very important in my life.
+      Outside of programming and games, I'm passionate about music (currently learning drums) and was once a national fencing champion in high school. My hobbies are a big part of how I channel creativity into everything I do.
     skills:
-      enable: true
+      enable: false
       title: |-
         Here are some tools and libraries that I am familiar with:
       items:
@@ -210,15 +208,9 @@ params:
         date: "2022 - Now"
         content: |-
           Learned essential aspects of game development such as
-            - C++ and modern programming paradigms for games
+            - C++ and modern programming paradigms and patterns
             - Scrum workflow and how to work as a team
             - Graphics, networking, 3D math for games, optimization, multithreading, etc...
-      - title: "High School Diploma"
-        school:
-          name: "Colégio Do Sagrado Coração De Maria - Lisboa"
-          url: "https://www.cscm-lx.pt"
-        date: "2015 - 2022"
-        GPA: "4.6 out of 5.0"
 
   # Achievements
   # achievements:
@@ -239,9 +231,9 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: If you want to contact me, simply message me on [LinkedIn](https://linkedin.com/in/santiago-bernardino) or shoot me an email **santibberna@gmail.com** . I will be happy to answer!
-    btnName: My Resume
-    btnLink: "SantiagoResume.pdf"
+    content: If you want to contact me, simply message me on [LinkedIn](https://linkedin.com/in/santiago-bernardino) or shoot me an email **santibberna@gmail.com**. I will be happy to answer!
+    # btnName: My Resume
+    # btnLink: "SantiagoResume.pdf"
     # formspree:
     #   enable: true # `contact.email` value will be ignored
     #   formId: abcdefgh # Take it from your form's endpoint, like 'https://formspree.io/f/abcdefgh'

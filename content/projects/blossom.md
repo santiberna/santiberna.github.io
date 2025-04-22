@@ -9,7 +9,6 @@ badges:
     - "Custom Engine"
     - "Level Editor"
     - "Visual Studio"
-    - "University"
 
 meta:
   - "👥Team Project"
@@ -21,7 +20,7 @@ Summary: "Team project where I worked on **Level loading and Serialization**, **
 
 ## Introduction
 
-Blossom is a game where you play as a bee collecting honey around a beautiful 3D environment. This project originally started as a custom rendering engine for nature scenes. **Developed for both PC and the PS5.**
+**Blossom is a game where you play as a bee collecting honey around a beautiful 3D environment.** This project originally started as a custom rendering engine for nature scenes. **Developed for both PC and the PS5.**
 
 The game is available on [Itch.io](https://buas.itch.io/blossom-engine) and the [OpenGL port is available on GitHub](https://github.com/BredaUniversityGames/Blossom) 
 
@@ -37,9 +36,9 @@ Within the team, I was assigned the role of Engine Programmer.
 - Serializing and loading scenes for release
 - Model loading for GLTF files
 
-## Perlin Noise and Density Masks
+### Procedural placement of Props using Perlin Noise and Density Masks
 
-In order to design nature scenes, We needed an algorithm that would procedurally place props like flowers and trees in a terrain (doing it practically would be too much work). **We used perlin noise combined with greyscale textures** for sampling the probability that an object would be present:
+For placing prop objects around a scene, **we used perlin noise combined with greyscale textures** for sampling the probability that an object would be spawned:
 
 <p align="center">
 <img src="/images/blossom/masking.png" style="width: 75%" alt="Centered Image">
@@ -57,7 +56,7 @@ In order to design nature scenes, We needed an algorithm that would procedurally
 
 Combining this with a lot of other randomization parameters for size and tilt, **we got a very effective and basic way of generating landscapes.**
 
-## Editor GUI using ImGui
+### Editor GUI using Dear ImGui
 
 **I created a robust editor for the scene with the ability to add an arbitrary number of props to a scene** and tweak a lot of the generation parameters. This was also built upon by another colleague who integrated the FastNoise library for generating density maps.
 
@@ -70,7 +69,7 @@ Combining this with a lot of other randomization parameters for size and tilt, *
 
 This also involved serializing and loading a scene at runtime, **which I also implemented** using the [Cereal library](https://github.com/USCiLab/cereal).
 
-## The Honey Collection Minigame
+### The Honey Collection Minigame
 
 Towards the end of the project I worked a bit on the gameplay. More concretely, **I created the logic for the growing sequence when the player completes the honey collection minigame and the orbiting bees around the hive as you deliver more honey**
 

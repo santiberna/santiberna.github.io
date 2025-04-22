@@ -40,9 +40,9 @@
               </div>
             </div>
           </div>
-          {{ if .Params.image }}
+          {{ if .Params.video }}
           <div class="featured-image">
-            <img class="img-fluid mx-auto d-block" src="{{ .Params.image }}" alt="{{ .Title }}">
+            <video class="img-fluid mx-auto d-block" src="{{ .Params.video }}" autoplay loop muted playsinline></video>
           </div>
           {{ end }}
           <article class="page-content  p-2">

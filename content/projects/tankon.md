@@ -2,6 +2,7 @@
 title: 'TankOn - Multiplayer Versus Topdown Shooter'
 date: 2025-02-21T18:22:22+01:00
 image: /images/tankon/image.png
+video: /images/tankon/TankOnMovement.mp4
 draft: false
 
 badges:

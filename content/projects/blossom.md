@@ -2,6 +2,7 @@
 title: 'Blossom - Nature Walking Sim'
 date: 2024-07-27T18:22:22+01:00
 image: /images/blossom/image.png
+video: /images/blossom/trailer.mp4
 draft: false
 
 badges:

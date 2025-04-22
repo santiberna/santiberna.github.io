@@ -2,6 +2,7 @@
 title: 'BlightSpire - Boomer Shooter'
 date: 2025-03-07T18:22:22+01:00
 image: /images/blightspire/image.png
+video: /images/blightspire/Blightspire Trailer.mp4
 draft: false
 
 badges:

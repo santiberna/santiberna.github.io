@@ -27,7 +27,7 @@ Menus:
     - identifier: resume
       name: Resume
       title: Resume
-      url: /images/SantiagoResume.pdf
+      url: /SantiagoResume.pdf
       weight: 1
     #Dropdown menu
     # - identifier: dropdown

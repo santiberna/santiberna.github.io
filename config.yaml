@@ -27,7 +27,7 @@ Menus:
     - identifier: resume
       name: Resume
       title: Resume
-      url: "https://santiberna.github.io/SantiagoResume.pdf"
+      url: "/resume.pdf"
       weight: 1
     #Dropdown menu
     # - identifier: dropdown

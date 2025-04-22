@@ -1,4 +1,4 @@
-baseURL: "https://santiberna.github.io"
+baseURL: "https://santiberna.github.io/"
 languageCode: "en-us"
 title: "Santiago Bernardino - Game Engine Programmer"
 theme: hugo-profile
@@ -125,7 +125,7 @@ params:
     intro: "Hi, my name is"
     title: "Santiago Bernardino"
     subtitle: "Game Engine Programmer"
-    content: "[Download the PDF](https://your-username.github.io/my-repository/files/your-file.pdf), I develop game engines using **C++**. Experience with **3D math, multithreading, build systems and cross platform design**. Passionate about working on **effective API design and user experience**."
+    content: "[Download the PDF](/SantiagoResume.pdf), I develop game engines using **C++**. Experience with **3D math, multithreading, build systems and cross platform design**. Passionate about working on **effective API design and user experience**."
     # image: /images/blossom/poi.gif
     # roundImage: true # Make hero image circular | default false
     bottomImage:

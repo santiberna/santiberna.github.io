@@ -91,12 +91,12 @@ params:
     secondaryColor: "#f8f9fa"
 
     darkmode:
-      textColor: "#c6cfe2"
+      textColor: "#D2DEEC"
       secondaryTextColor: "#b0b3b8"
-      textLinkColor: "#ffffff"
+      textLinkColor: "#FFFFFF"
       backgroundColor: "#18191a"
       secondaryBackgroundColor: "#212529"
-      primaryColor: "#ffffff"
+      primaryColor: "#E2EAF4"
       secondaryColor: "#212529"
 
   # If you want to customize the menu, you can change it here

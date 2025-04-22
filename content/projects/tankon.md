@@ -69,7 +69,7 @@ For serialization and deserialization of all this data, I used [Cereal](https://
 
 ## UI Widgets and Input
 
-I explored using [Boost.Signals2](https://www.boost.org/doc/libs/1_88_0/doc/html/signals2.html) to create a flexible UI framework. It also uses [a tree data structure](https://github.com/kpeeters/tree.hh) to store a UI Menu as a tree with each widget being a node:
+I explored using [Boost.Signals2](https://www.boost.org/doc/libs/1_88_0/doc/html/signals2.html) to create a flexible UI framework. The entire system uses [a tree data structure](https://github.com/kpeeters/tree.hh) to represent a Menu as a tree of multiple UI nodes (that can be widgets):
 
 <p align="center">
 <img src="/images/tankon/ui_anim.gif" width="40%" alt="Centered Image">

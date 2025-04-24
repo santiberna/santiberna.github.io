@@ -154,10 +154,6 @@ I found that it was very hard to parallelize glTF loading of files when I was us
 <img src="/images/libstream/Splitdamaged_helm.png" style="width: 75%" alt="Centered Image">
 </p>
 
-<p align="center">
-<img src="/images/libstream/Splitdamaged_helm.png" style="width: 75%" alt="Centered Image">
-</p>
-
 With it, **I was able my load benchmark Bistro scene in only 10 seconds as compared to the usual 27 when I used `tinygltf`** (note: the openGL renderer I was using for this project was not perfect)
 
 <p align="center">

@@ -86,3 +86,4 @@ I explored using [Boost.Signals2](https://www.boost.org/doc/libs/1_88_0/doc/html
 
 <div align="center">Sliders and toggles (Left), text input boxes (Right)</div>
 </p>
+

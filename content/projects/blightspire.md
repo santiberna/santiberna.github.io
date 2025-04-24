@@ -45,7 +45,7 @@ Within the team, I was assigned the role of Engine Programmer.
 We needed scripting language for making gameplay code, since it would allow for **easier iteration times by avoiding recompilations of the engine**. For that I chose a lesser know scripting language called [Wren](https://github.com/wren-lang/wren).
 
 I chose it because:
-- It has syntax similar to C, reducing the barrier of entry for the other programmers.
+- It has syntax similar to C, reducing the barrier of entry for my colleagues that all know C++.
 - Relatively fast, on par with Lua.
 - Good documentation
 
@@ -58,7 +58,34 @@ The main USP of scripting that I implemented was runtime reloading, since **it m
   <source src="/images/blightspire/shooting.mp4" type="video/mp4">
 </video>
 
-I used the [wrenbind17 library ](https://github.com/matusnovak/wrenbind17) for creating wren bindings for C++ since it was much easier and less error prone than the C API.
+I used the [wrenbind17 library](https://github.com/matusnovak/wrenbind17) for creating wren bindings for C++ since it was much easier and less error prone than the C API.
+
+Internally, **every main script represented a scene in the game**: we used one for the game and one for the main menu, transitioning between both of them when necessary. Each script defined a **Start, Shutdown and Update** that were called when the scene/script is initialized, destroyed and every frame (respectively). **Hot-reloading comes for free with this, since it is essentially the same as destroying and constructing the same script again.**
+
+```js
+class Main {
+    static Start(engine) {
+        // Setup input mode
+        // Setup UI callbacks
+        // Create player
+        // Load cathedral area
+        //...
+    }
+
+    static Shutdown(engine) {
+        // Clear ECS
+        //...
+    }
+
+    static Update(engine, dt) {
+        // Update enemies
+        // Player Movement
+        //...
+    }
+}
+```
+
+I went with this approach since using wren as a frontend for the entire engine needed to be done earlier in development and implementing something like Unity's C# behaviour component scripts required too much interop between ``wren``, ``entt`` (our ECS library) and C++, as well as requiring a better engine editor.
 
 ## CMake build system
 

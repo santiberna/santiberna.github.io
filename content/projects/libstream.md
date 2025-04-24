@@ -55,7 +55,7 @@ In my final demo, I created a scene populated with high res models sparsely arou
 
 <p align="center">
 <video width="720" height="405" autoplay loop muted playsinline>
-  <source src="/images/libstream/w6_graphs.mp4" type="video/mp4">
+  <source src="/images/libstream/w6_Graphs.mp4" type="video/mp4">
 </video>
 </p>
 

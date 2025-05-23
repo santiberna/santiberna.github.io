@@ -122,10 +122,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
+    intro: ""
     title: "Santiago Bernardino"
-    subtitle: "Game Engine Programmer"
-    content: "I develop game engines using **C++**. Experience with **3D math, multithreading, build systems and cross platform design**. Passionate about working on **effective API design and user experience**."
+    subtitle: "Game Engine and Tools Programmer"
+    content: "I develop game engines using **C++**. Experience with **scripting systems, multithreading, content creation tools, optimization and cross platform development**. Passionate about working on **simple and effective APIs**."
     # image: /images/blossom/poi.gif
     # roundImage: true # Make hero image circular | default false
     bottomImage:
@@ -150,7 +150,7 @@ params:
     title: "About Me"
     image: /images/hero.jpg
     content: |-
-      Hello there! I'm a 3rd-year Game Engine Programming student at BUAS. I am a passionate game programmer with a strong background on C++ and problem solving, **currently looking for an internship on content processing/optimization, UI and network/multiplayer code.**
+      Hello there! I'm a 3rd-year Game Programming student at BUAS. I am a passionate developer with a strong background on C++ and problem solving, **currently looking for an internship on engine programming and/or content creation tool development.**
 
       **I've contributed to two custom game engines** for team projects and gained hands-on experience with **integrating scripting, networking, 3D model loading, and multithreading**. I'm also familiar with **Scrum/Agile workflows**.
 

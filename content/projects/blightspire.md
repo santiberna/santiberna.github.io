@@ -1,5 +1,5 @@
 ---
-title: 'BlightSpire - Boomer Shooter'
+title: 'Blightspire - Boomer Shooter'
 date: 2025-03-07T18:22:22+01:00
 image: /images/blightspire/image.png
 video: /images/blightspire/Blightspire Trailer.mp4
@@ -15,7 +15,7 @@ badges:
 meta:
   - "👥Team Project"
   - "⌛Duration: 32 weeks"
-  - "💻Platforms: Windows and Steamdeck"
+  - "💻Platforms: Windows and Steam Deck"
 
 Summary: "Year long Custom Tech project where I integrated a **scripting language (Wren)** for improving iteration times, worked on a **code quality and testing pipeline** using GitHub workflows and managed building the engine using **CMake**"
 ---

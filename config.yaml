@@ -231,7 +231,7 @@ params:
   contact:
     enable: true
     # title: "Custom Name"
-    content: If you want to contact me, simply message me on [LinkedIn](https://linkedin.com/in/santiago-bernardino) or shoot me an email **santibberna@gmail.com**. I will be happy to answer!
+    content: If you want to contact me, simply message me on LinkedIn or shoot me an email **santibberna@gmail.com**. I will be happy to answer!
     # btnName: My Resume
     # btnLink: "SantiagoResume.pdf"
     # formspree:

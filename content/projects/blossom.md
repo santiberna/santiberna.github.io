@@ -16,7 +16,15 @@ meta:
   - "⌛Duration: 16 weeks"
   - "💻Platforms: Windows and PS5"
 
-Summary: "Team project where I worked on **Level loading and Serialization**, **Procedural placement of objects** using texture masks and perlin noise, **Editor GUI** for editing a scene, all for creating amazing nature landscapes with minimal manual work."
+Summary: "
+    Team project where I mainly worked on:
+
+    - **Level loading and Serialization**
+
+    - **Procedural placement of objects** using texture masks and perlin noise
+
+    - **Editor GUI** for editing a nature scene.
+    "
 ---
 
 ## Introduction

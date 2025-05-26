@@ -17,7 +17,15 @@ meta:
   - "⌛Duration: 32 weeks"
   - "💻Platforms: Windows and Steam Deck"
 
-Summary: "Year long Custom Tech project where I integrated a **scripting language (Wren)** for improving iteration times, worked on a **code quality and testing pipeline** using GitHub workflows and managed building the engine using **CMake**"
+Summary: "
+    Year long Custom Tech project where I:
+
+    - Integrated a **scripting language (Wren)**
+
+    - Worked on a **code quality and testing pipeline** using GitHub workflows 
+
+    - Managed building the engine using **CMake**
+    "
 ---
 
 ## Introduction

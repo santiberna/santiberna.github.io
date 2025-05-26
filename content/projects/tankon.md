@@ -16,7 +16,13 @@ meta:
   - "👥Solo passion project"
   - "💻Platforms: Windows"
 
-Summary: "Solo passion project where I challenged myself to create a simple game for 2-4 players using **Boost.Asio** and **SDL**. Also implemented **UI with text rendering and a widget hierarchy**."
+Summary: "
+    Solo passion project where I made a:
+
+    - Simple LAN game for 2-4 players using **Boost.Asio** and **SDL**. 
+
+    - Also implemented **UI with text rendering and a widget hierarchy**.
+    "
 ---
 
 ## Introduction

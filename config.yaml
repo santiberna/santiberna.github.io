@@ -49,7 +49,7 @@ Menus:
 
 params:
   title: "Santiago Bernardino - Game Engine Programmer"
-  description: "I develop game engines and tools using C++. Experience with scripting systems, multithreading, content pipelines and cross platform design. Passionate about working on simple and effective APIs that give other developers a sigh of relief."
+  description: "I develop game engines and tools using C++. Experience with scripting systems, multithreading, content pipelines and cross platform design. Passionate about developing effective and clear APIs, tools and systems."
   staticPath: ""  # The path to serve the static files from
   favicon: "/images/octahedron2.svg"
 

@@ -125,7 +125,7 @@ params:
     intro: ""
     title: "Santiago Bernardino"
     subtitle: "Game Engine and Tools Programmer"
-    content: "I develop game engines and tools using C++. Experience with scripting systems, multithreading, content pipelines and cross platform design. Passionate about working on simple and effective APIs that give other developers a sigh of relief."
+    content: "I develop game engines and tools using C++. Experience with scripting systems, multithreading, content pipelines and cross platform design. Passionate about developing effective and clear APIs, tools and systems."
     # image: /images/blossom/poi.gif
     # roundImage: true # Make hero image circular | default false
     bottomImage:

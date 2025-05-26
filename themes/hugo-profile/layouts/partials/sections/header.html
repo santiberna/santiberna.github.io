@@ -47,7 +47,7 @@
 
 <!-- Navbar -->
 <header id="profileHeader">
-    <nav class="pt-3 navbar navbar-expand-lg {{ if .Site.Params.animate }}animate{{ end }}">
+    <nav class="pt-1 navbar navbar-expand-lg {{ if .Site.Params.animate }}animate{{ end }}">
         <div class="container-fluid mx-xs-2 mx-sm-5 mx-md-5 mx-lg-5">
             <!-- navbar brand -->
             <a class="navbar-brand primary-font text-wrap" href="{{ .Site.BaseURL | relURL }}">
@@ -166,7 +166,7 @@
                     {{else}}
                     <!-- Single menu item -->
                     <li class="nav-item navbar-text">
-                        <a class="nav-link" href="{{.URL}}" title="{{ .Title }}">
+                        <a class="nav-link" href="{{.URL}}" title="{{ .Title }}" target="_blank">
                             {{ .Pre }}
                             {{ .Name }}
                         </a>

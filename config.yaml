@@ -49,7 +49,7 @@ Menus:
 
 params:
   title: "Santiago Bernardino - Game Engine Programmer"
-  description: "I develop game engines using C++. Experience with 3D math, multithreading, build systems and cross platform design. Passionate about working on content creation and simple, effective API design and user experience."
+  description: "I develop game engines and tools using C++. Experience with scripting systems, multithreading, content pipelines and cross platform design. Passionate about working on simple and effective APIs that give other developers a sigh of relief."
   staticPath: ""  # The path to serve the static files from
   favicon: "/images/octahedron2.svg"
 
@@ -125,7 +125,7 @@ params:
     intro: ""
     title: "Santiago Bernardino"
     subtitle: "Game Engine and Tools Programmer"
-    content: "I develop game engines using **C++**. Experience with **scripting systems, multithreading, content creation tools, optimization and cross platform development**. Passionate about working on **simple and effective APIs**."
+    content: "I develop game engines and tools using C++. Experience with scripting systems, multithreading, content pipelines and cross platform design. Passionate about working on simple and effective APIs that give other developers a sigh of relief."
     # image: /images/blossom/poi.gif
     # roundImage: true # Make hero image circular | default false
     bottomImage:
@@ -150,7 +150,7 @@ params:
     title: "About Me"
     image: /images/hero.jpg
     content: |-
-      Hello there! I'm a 3rd-year Game Programming student at BUAS. I am a passionate developer with a strong background on C++ and problem solving, **currently looking for an internship on engine programming and/or content creation tool development.**
+      Hello there! I'm a 3rd-year Game Programming student at BUAS. I am a passionate developer with a strong background on C++ and problem solving, **currently looking for an internship on engine programming and/or tool development, starting September 2025.**
 
       **I've contributed to two custom game engines** for team projects and gained hands-on experience with **integrating scripting, networking, 3D model loading, and multithreading**. I'm also familiar with **Scrum/Agile workflows**.
 

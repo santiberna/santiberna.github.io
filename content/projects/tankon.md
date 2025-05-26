@@ -69,7 +69,7 @@ For serialization and deserialization of all this data, I used [Cereal](https://
 
 ## UI Widgets and Input
 
-I explored using [Boost.Signals2](https://www.boost.org/doc/libs/1_88_0/doc/html/signals2.html) to create a flexible UI framework. The entire system uses [a tree data structure](https://github.com/kpeeters/tree.hh) to represent a Menu as a tree of multiple UI nodes (that can be widgets):
+I explored using [Boost.Signals2](https://www.boost.org/doc/libs/1_88_0/doc/html/signals2.html) to create a flexible UI framework. The entire system uses [a tree data structure implementation](https://github.com/kpeeters/tree.hh) to represent a Menu as a tree of multiple UI nodes (that can be widgets):
 
 <p align="center">
 <img src="/images/tankon/ui_anim.gif" width="40%" alt="Centered Image">
@@ -87,3 +87,58 @@ I explored using [Boost.Signals2](https://www.boost.org/doc/libs/1_88_0/doc/html
 <div align="center">Sliders and toggles (Left), text input boxes (Right)</div>
 </p>
 
+At a macro level, menus exist in a stack data structure where the top element is drawn (other systems might have it drawn on top of the previous ones). This is a very useful design pattern that I utilized for UI, since it fits nicely into the intuitive way of going into a menu and going back to the previous one active (pushing and popping).
+
+```c++
+// Initialization
+
+main_menu = MakeMainMenu(*this);
+settings_menu = MakeSettingsMenu(*this);
+menu_stack.push(&main_menu);
+
+// Drawing and updating
+
+UICursorInfo ui_input {};
+ui_input.cursor_position = mouse_pos;
+ui_input.cursor_state = cursor;
+ui_input.deltatime = deltatime;
+ui_input.typed_characters = input_text;
+
+if (!menu_stack.empty())
+{
+    ZoneScopedN("UI Drawing");
+    menu_stack.top()->Draw(renderer, ui_input);
+}
+```
+
+For drawing individual widgets, they are stored as a tree owned by the respective menu: drawing the UI is as easy as iterating the tree depth-first (Note: I did not need to do Z ordering for the simple framework I was creating):
+
+```c++
+
+// Defined aliases in the Menu class
+using NodeTree = tr::tree<std::unique_ptr<UINode>>;
+using NodeIterator = NodeTree::iterator;
+
+void Menu::Draw(Renderer& renderer, const UICursorInfo& cursor_params)
+{
+    glm::vec2 frame_size = glm::vec2(renderer.GetFrameAspectRatio(), 1.0f);
+    UIDrawInfo initial { frame_size * 0.5f, frame_size, colour::WHITE };
+
+    // loop through all root ui elements
+    for (auto it = elements.begin(); it != elements.end(); it = elements.next_sibling(it))
+        DrawElement(renderer, it, initial, cursor_params);
+}
+
+void Menu::DrawElement(Renderer& renderer, NodeIterator iterator, const UIDrawInfo& parent_info, const UICursorInfo& cursor_params)
+{
+    auto& elem = **iterator;
+    if (!elem.active) return;
+
+    UIDrawInfo current_draw_info = parent_info * elem.local_transform;
+    elem.Draw(renderer, current_draw_info, cursor_params);
+
+    // Loops through all child elements
+    for (auto it = elements.begin(iterator); it != elements.end(iterator); ++it)
+        DrawElement(renderer, it, current_draw_info, cursor_params);
+}
+```

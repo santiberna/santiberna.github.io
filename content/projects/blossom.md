@@ -59,7 +59,7 @@ Combining this with a lot of other randomization parameters for size and tilt, *
 
 ### Editor GUI using Dear ImGui
 
-**I created a robust editor for the scene with the ability to add an arbitrary number of props to a scene** and tweak a lot of the generation parameters. This was also built upon by another colleague who integrated the FastNoise library for generating density maps.
+**I created a robust editor for a scene with the ability to add an arbitrary number of props to a scene** and tweak a lot of the generation parameters. This was also built upon by another colleague who integrated the FastNoise library for generating density maps.
 
 <video width="440" height="320" autoplay loop muted playsinline>
   <source src="/images/blossom/editor_video.mp4" type="video/mp4">

@@ -135,7 +135,7 @@ This approach has it's problems, but it is very flexible and easy to build upon.
 
 ## GitHub Automated Testing
 
-To avoid main breaking every week, I also setup some automated [GitHub workflows to test building the engine on both Windows and Linux and run our unit tests](https://github.com/BredaUniversityGames/Y2024-25-PR-BB/blob/main/.github/workflows/pr-checks.yml), as well as [another workflow for performing a linting review of a pull request](https://github.com/BredaUniversityGames/Y2024-25-PR-BB/blob/main/.github/workflows/cpp-linter.yml):
+To avoid main breaking every week, I also setup some [automated GitHub workflows](https://github.com/BredaUniversityGames/Y2024-25-PR-BB/blob/main/.github/workflows/pr-checks.yml) to test building the engine on both Windows and Linux and run our unit tests, as well as [another workflow](https://github.com/BredaUniversityGames/Y2024-25-PR-BB/blob/main/.github/workflows/cpp-linter.yml) for performing a linting review of a pull request:
 
 <div class="row">
   <div style="width: 50%">

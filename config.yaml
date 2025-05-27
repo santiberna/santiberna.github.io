@@ -150,12 +150,12 @@ params:
     title: "About Me"
     image: /images/hero.jpg
     content: |-
-      Hello there! I'm a 3rd-year Game Programming student at BUAS. I am a passionate developer with a strong background on C++ and problem solving, **currently looking for an internship on engine programming and/or tool development, starting September 2025.**
+      Hello there! I'm a 3rd-year Game Programming student at BUAS. I am a hard-working developer with a strong background on C++ and problem solving, **currently looking for an internship on engine programming and/or tool development, starting September 2025.**
 
       **I've contributed to two custom game engines** for team projects and gained hands-on experience with **integrating scripting, networking, 3D model loading, and multithreading**. I'm also familiar with **Scrum/Agile workflows**.
 
       Obviously, I also play games in my free time: I believe they are one of the most immersive forms of media nowadays and I am proud to work in something that has been very important in my life.
-      Outside of programming and games, I'm passionate about music (currently learning drums) and was once a national fencing champion in high school. My hobbies are a big part of how I channel creativity into everything I do.
+      Outside of programming and games, I'm in love with music (currently learning drums) and was once a national fencing champion in high school. My hobbies are a big part of how I channel creativity into everything I do.
     skills:
       enable: false
       title: |-

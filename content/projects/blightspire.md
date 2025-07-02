@@ -30,11 +30,11 @@ Summary: "
 
 ## Introduction
 
-**Blightspire is a WIP custom engine game for my year long custom tech project at BUAS**. It is a boomer shooter that incorporates fast paced gameplay, pixelized and grainy graphics and a lot of particles! 
+**Blightspire is a custom engine game for my 3rd year project at BUAS**. It is a boomer shooter that incorporates fast paced gameplay, pixelized and grainy graphics with wave-based survival! 
 
-**Our target platform is the Steam Deck, but there will also be a PC build. It will also be released on Steam by the end of the academic year, so stay tuned.**
+**[The project is on Steam, for both PC and Steam Deck](https://store.steampowered.com/app/3365920/Blightspire/)**
 
-The code itself is open source: [here is a link to it!](https://github.com/BredaUniversityGames/Y2024-25-PR-BB)
+The code itself is also open source: [here is a link to it!](https://github.com/BredaUniversityGames/Y2024-25-PR-BB)
 
 Our team was composed of 9 programmers and 1 designer / producer.
 

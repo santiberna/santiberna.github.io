@@ -3,7 +3,7 @@ title: 'Libstream - Async Asset Streaming'
 date: 2024-02-08T18:22:22+01:00
 image: /images/libstream/image.png
 video: /images/libstream/WalkingAround.mp4
-draft: true
+draft: false
 
 badges:
     - "C++"
@@ -36,7 +36,7 @@ For 8 weeks, I researched an advanced topic in the realm of game engine developm
 ### The Demo
 
 The plan:
-- Use the AABB of a model to determine which chunks it belongs to, building a 2D grid of cells with entities (I was using `entt` in this project).
+- Use the AABB of a model to determine which chunks it belongs to, building a 2D grid of cells with entities (I am using `entt` in this project).
 - Calculate in which chunk the player belongs to and retrieve all nearby chunks
 - Check the handles for the nearby models
     - If the model is not loaded (which initially isn't), queue it for loading
@@ -51,7 +51,7 @@ The plan:
   <source src="/images/libstream/ChunkLoadingDemo.mp4" type="video/mp4">
 </video>
 
-In my final demo, I created a scene populated with high res models sparsely around a low poly city environment. I added some graphs to the demo to also keep track of thread and memory usage:
+In my final demo, I created a scene populated with high resolution models sparsely around a low poly city environment. I added some graphs to the demo to also keep track of thread and memory usage:
 
 <p align="center">
 <video width="720" height="405" autoplay loop muted playsinline>
